@@ -3,7 +3,7 @@
 
 case $# in
     0|1)
-        printf "error. Usage: ext extension fichiers_a_changer\n"
+        printf "error. Usage: add_or_modify_extension extension_name files\n"
         exit 1
 	;;
     *)
@@ -28,4 +28,3 @@ for i in $parameters; do
 		    ;;
         esac
 done
-
